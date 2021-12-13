@@ -4,7 +4,7 @@
     <title>Systematic Botany</title>
     <title-short>sysbot</title-short>
     <id>http://www.zotero.org/styles/systematic-botany</id>
-    <link href="http://www.zotero.org/styles/systematic-botany" rel="self"/>
+    <link href="https://raw.githubusercontent.com/plantarum/csl/main/systematic-botany.csl" rel="self"/>
     <link href="https://www.aspt.net/publications/sysbot" rel="documentation"/>
     <link href="http://www.zotero.org/styles/american-journal-botany" rel="template"/>
     <author>
@@ -18,7 +18,7 @@
     <issn>0363-6445</issn>
     <eissn>1548-2324</eissn>
     <summary>Systematic Botany author-date style.</summary>
-    <updated>2021-06-29T03:45:36+00:00</updated>
+    <updated>2021-06-30</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="editor">
@@ -125,7 +125,7 @@
   <bibliography hanging-indent="true" et-al-min="9" et-al-use-first="7">
     <sort>
       <key macro="author"/>
-      <key variable="title"/>
+      <key variable="year"/>
     </sort>
     <layout suffix=".">
       <text macro="author" suffix="."/>
